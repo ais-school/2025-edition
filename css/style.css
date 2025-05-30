@@ -99,10 +99,6 @@
     box-shadow: 0px 0px 1px #dbdbdb;
 }
 
-.img-mh {
-    max-height: 100px;
-}
-
 /* Open Sans font */
 .os {
     font-family: "Open Sans";
@@ -180,6 +176,10 @@
   .txt-loc {
     text-align: left;
   }
+
+  .img-logo-size {
+    max-height: 95px;
+  }
 }
 
 /* Styles for mobile */
@@ -190,5 +190,10 @@
 
   .txt-loc {
     text-align: center;
+  }
+
+  .img-logo-size {
+    width: 85%; 
+    height: auto;
   }
 }
