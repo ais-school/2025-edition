@@ -1,1 +1,1 @@
-# AIS 2025 - Advanced School on AI and Intelligent Systems: Design, Architectures, and Optimization #
+# AIS 2025 - Advanced School on AI and Intelligent Systems: Design, Engineering and Architectures #
