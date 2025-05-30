@@ -170,3 +170,25 @@
     max-height: 550px;
     z-index: -1;
 }
+
+/* Styles for desktop */
+@media (min-width: 768px) {
+  .img-loc {
+    text-align: right;
+  }
+
+  .txt-loc {
+    text-align: left;
+  }
+}
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+  .img-loc {
+    text-align: center;
+  }
+
+  .txt-loc {
+    text-align: center;
+  }
+}
