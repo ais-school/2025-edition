@@ -193,7 +193,6 @@
   }
 
   .img-logo-size {
-    width: 85%; 
-    height: auto;
+    max-height: 85px;
   }
 }
