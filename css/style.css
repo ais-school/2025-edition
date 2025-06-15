@@ -1,4 +1,8 @@
 /* General */
+body {
+    padding-top: 70px; /* Adjusted for fixed-top navbar */
+}
+
 .txtcenter {
     text-align: center;
 }
@@ -36,7 +40,7 @@
 }
 
 .c-yellow {
-    color: #f8cf5f;
+    color: #D1A730; /* Darkened yellow for better contrast on light backgrounds */
 }
 
 .c-white {
@@ -71,6 +75,75 @@
     margin-left: 45px;
 }
 
+/* Utility Classes */
+.pt-5 { padding-top: 5px; }
+.pt-20 { padding-top: 20px; }
+.py-25 { padding-top: 25px; padding-bottom: 25px; }
+.pb-50 { padding-bottom: 50px; }
+.pt-50 { padding-top: 50px; }
+.py-50 { padding-top: 50px; padding-bottom: 50px; }
+
+.fw-100 { font-weight: 100; }
+.text-justify { text-align: justify; }
+.text-underlined { text-decoration: underline; }
+
+/* Component Specific */
+.carousel-custom-inner {
+    max-height: 350px;
+    padding-top: 10px; /* Note: !important was removed, check if effective */
+}
+
+.aim-scope-column {
+    text-align: justify;
+    /* margin-top: 0px !important; was here, will be handled by removing mt-5 in HTML */
+}
+
+.tutorial-speaker-text { /* Replaces multiple inline style="padding-top: 5px;" */
+    padding-top: 5px;
+}
+
+.main-content-abstract-padding {
+    margin-top: 125px;
+    margin-bottom: 100px;
+}
+
+.tutorial-img-padding {
+    padding-bottom: 5px;
+}
+
+.pb-25 { padding-bottom: 25px; }
+.mt-25 { margin-top: 25px; }
+
+/* Travel page specific card styles */
+.map-card-link {
+    display: block;
+    text-decoration: none !important; /* To override default link underlines */
+}
+.info-card-wrapper {
+    max-width: 15rem;
+    margin: 0 auto;
+}
+.card-text-small {
+    font-size: 13px;
+}
+
+.speaker-img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.speaker-img-lecture {
+    max-width: 130px;
+}
+.speaker-img-tutorial {
+    max-width: 95px;
+}
+
+/* Contact name color override, if c-yellow is not specific enough or !important was unavoidable */
+/* .contact-name { color: #F8CF5F; } */
+
+
 /* Navbar */
 .navbar-light {
     background-color: #f1f1f1;
@@ -95,7 +168,7 @@
 /* Logo */
 
 .bg-logo {
-    background-color: #f9f9fA;
+    background-color: #f9f9fa;
     box-shadow: 0px 0px 1px #dbdbdb;
 }
 
@@ -196,4 +269,25 @@
     width: 85%; 
     height: auto;
   }
+
+  .carousel-custom-inner {
+    max-height: 250px; /* Reduced height for smaller screens */
+  }
+
+  .speaker-img-lecture, .speaker-img-tutorial {
+    max-width: 100%; /* Ensure images shrink to fit container on mobile */
+  }
+
+  .main-content-abstract-padding {
+    margin-top: 30px; /* Reduced margin for abstract pages on mobile */
+    margin-bottom: 30px; /* Reduced margin for abstract pages on mobile */
+  }
+
+  /* Adjust hero text size if needed on very small screens */
+  /* Example:
+  .os-2text {
+    font-size: 0.9rem; // Or adjust based on actual inherited size
+    line-height: 1.5;
+  }
+  */
 }
