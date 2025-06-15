@@ -1,6 +1,6 @@
 /* General */
 body {
-    padding-top: 70px; /* Adjusted for fixed-top navbar */
+    /* padding-top: 70px; */ /* Adjusted for fixed-top navbar - Removed */
 }
 
 .txtcenter {
@@ -85,7 +85,9 @@ body {
 
 .fw-100 { font-weight: 100; }
 .text-justify { text-align: justify; }
-.text-underlined { text-decoration: underline; }
+.text-underlined { /* text-decoration: underline; */ }
+
+h3.text-underlined { text-decoration: underline; }
 
 /* Component Specific */
 .carousel-custom-inner {
@@ -134,10 +136,12 @@ body {
     margin-right: auto;
 }
 .speaker-img-lecture {
-    max-width: 130px;
+    width: 130px;
+    height: 130px;
 }
 .speaker-img-tutorial {
-    max-width: 95px;
+    width: 95px;
+    height: 95px;
 }
 
 /* Contact name color override, if c-yellow is not specific enough or !important was unavoidable */
@@ -163,6 +167,7 @@ body {
 
 .bg-slider {
     background-color: #292c33;
+    margin-top: 70px; /* Added to compensate for removed body padding-top */
 }
 
 /* Logo */
