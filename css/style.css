@@ -1,4 +1,4 @@
-/* General */
+/* General. */
 .txtcenter {
     text-align: center;
 }
@@ -71,7 +71,7 @@
     margin-left: 45px;
 }
 
-/* Utility Classes */
+/* Utility Classes. */
 .pt-5 { padding-top: 5px; }
 .pt-20 { padding-top: 20px; }
 .py-25 { padding-top: 25px; padding-bottom: 25px; }
@@ -84,7 +84,7 @@
 
 h3.text-underlined { text-decoration: underline; }
 
-/* Component Specific */
+/* Component Specific. */
 .carousel-inner {
     position: relative;
     width: 100%;
@@ -143,10 +143,10 @@ h3.text-underlined { text-decoration: underline; }
 .pb-25 { padding-bottom: 25px; }
 .mt-25 { margin-top: 25px; }
 
-/* Travel page specific card styles */
+/* Travel page specific card styles. */
 .map-card-link {
     display: block;
-    text-decoration: none !important; /* To override default link underlines */
+    text-decoration: none !important; /* To override default link underlines. */
 }
 .info-card-wrapper {
     max-width: 15rem;
@@ -171,7 +171,7 @@ h3.text-underlined { text-decoration: underline; }
     height: 95px;
 }
 
-/* Navbar */
+/* Navbar. */
 .navbar-light {
     background-color: #f1f1f1;
 }
@@ -186,20 +186,19 @@ h3.text-underlined { text-decoration: underline; }
     font-weight: bold;
 }
 
-/* Slider */
+/* Slider. */
 .bg-slider {
     background-color: #292c33;
-    margin-top: 55px; /* Added to compensate for removed body padding-top */
+    margin-top: 55px; /* Added to compensate for removed body padding-top. */
 }
 
-/* Logo */
-
+/* Logo. */
 .bg-logo {
     background-color: #f9f9fa;
     box-shadow: 0px 0px 1px #dbdbdb;
 }
 
-/* Open Sans font */
+/* Open Sans font. */
 .os {
     font-family: "Open Sans";
     font-weight: 500;
@@ -232,7 +231,7 @@ h3.text-underlined { text-decoration: underline; }
     line-height: 26.4px;
 }
 
-/* Particles */
+/* Particles. */
 #particles-js {
     position: absolute;
     width: 100%;
@@ -267,7 +266,7 @@ h3.text-underlined { text-decoration: underline; }
     z-index: -1;
 }
 
-/* Styles for desktop */
+/* Styles for desktop. */
 @media (min-width: 768px) {
   .img-loc {
     text-align: right;
@@ -278,11 +277,11 @@ h3.text-underlined { text-decoration: underline; }
   }
 
   .img-logo-size {
-    max-height: 95px;
+    max-height: 65px;
   }
 }
 
-/* Styles for mobile */
+/* Styles for mobile. */
 @media (max-width: 767px) {
   .img-loc {
     text-align: center;
@@ -293,16 +292,21 @@ h3.text-underlined { text-decoration: underline; }
   }
 
   .img-logo-size {
-    width: 85%;
+    width: 95%;
     height: auto;
   }
 
+  .img-sponsor-size {
+    width: 80%;
+    height: 80%;
+  }
+
   .speaker-img-lecture, .speaker-img-tutorial {
-    max-width: 100%; /* Ensure images shrink to fit container on mobile */
+    max-width: 100%; /* Ensure images shrink to fit container on mobile. */
   }
 
   .main-content-abstract-padding {
-    margin-top: 100px; /* Reduced margin for abstract pages on mobile */
-    margin-bottom: 100px; /* Reduced margin for abstract pages on mobile */
+    margin-top: 100px; /* Reduced margin for abstract pages on mobile. */
+    margin-bottom: 100px; /* Reduced margin for abstract pages on mobile. */
   }
 }
