@@ -8,16 +8,17 @@
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
-# Local History for Visual Studio Code
+# Local History for Visual Studio Code.
 .history/
 
-# Built Visual Studio Code Extensions
+# Built Visual Studio Code Extensions.
 *.vsix
 
 ### VisualStudioCode Patch ###
-# Ignore all local history of files
+# Ignore all local history of files.
 .history
 .ionide
 
 ### Custom ###
 .DS_Store
+imgs/sponsor-logos.drawio
